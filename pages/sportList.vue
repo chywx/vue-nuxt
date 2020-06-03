@@ -1,7 +1,8 @@
 <template>
   <div>
+    <h1>运动列表</h1>
     <div v-for="sport of sportList">
-      <h1>{{sport.name}}</h1>
+      <h3>{{sport.name}}</h3>
     </div>
   </div>
 </template>
