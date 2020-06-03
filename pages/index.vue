@@ -24,7 +24,7 @@
           GitHub
         </a>
 
-        <span @click="test">test</span>
+        <span @click="sportList">查看运动列表</span>
       </div>
     </div>
   </div>
@@ -38,11 +38,12 @@
       Logo
     },
     methods: {
-      test () {
-        this.$axios.get('http://117.78.10.187:9009/api/bet/sport/list').then(res => {
-          console.log(res)
-        })
-        alert(123)
+      sportList () {
+        this.$router.push('/sportList');
+        // this.$axios.get('http://117.78.10.187:9009/api/bet/sport/list').then(res => {
+        //   console.log(res)
+        //   this.$router.push('/sportList');
+        // })
       }
     }
   }
