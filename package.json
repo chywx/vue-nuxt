@@ -1,0 +1,17 @@
+{
+  "name": "vue-nuxt-demo1",
+  "version": "1.0.0",
+  "description": "chy desc",
+  "author": "陈海洋",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
